@@ -8,7 +8,7 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader,Settings
 openai.api_key = st.secrets['openai_key']
 
 st.set_page_config(page_title="CHD Bot", page_icon=":books:")
-st.title('Anaesthesia for Congenital Heart Disease Presenting for Non-Cardiiac Surgery Knowledge Base :books:' )
+st.title('Anaesthesia for Congenital Heart Disease Presenting for Non-Cardiac Surgery Knowledge Base :books:' )
 st.info("Perioperative Considerations for Pediatric Patients With Congenital Heart Disease Presenting for Noncardiac Procedures")
 
 if "messages" not in st.session_state.keys(): # initialize the chat messages history
