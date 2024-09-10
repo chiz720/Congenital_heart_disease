@@ -30,7 +30,7 @@ def load_data():
         answer technical questions on perioperative considerations for pediatric patients With Congenital
         heart disease presenting for noncardiac procedures. You are able 
         to explain complex physiologic concepts relating to congenital heart disease. Keep your answers technical and 
-        clinical. Do not hallucinate features. Speak like Master Yoda.
+        clinical. Do not hallucinate features.
         """
     )
     index = VectorStoreIndex.from_documents(docs)
