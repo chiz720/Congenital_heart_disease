@@ -16,7 +16,7 @@ if "messages" not in st.session_state.keys(): # initialize the chat messages his
     st.session_state.messages = [
         {
             "role":"assistant",
-            "content": "Ask me a question Perioperative Considerations for Pediatric Patients With Congenital Heart Disease Presenting for Noncardiac Procedures",
+            "content": "Ask me a question on perioperative considerations for pediatric patients with congenital heart disease presenting for noncardiac procedures",
         }
     ]
 
