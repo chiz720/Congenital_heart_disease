@@ -1,5 +1,5 @@
 import streamlit as st
-import openai
+import openai≠
 from llama_index.llms.openai import OpenAI
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader,Settings
 
@@ -28,9 +28,9 @@ def load_data():
         model="gpt-3.5-turbo",
         temperature=0.2,
         system_prompt="""You are an experienced pediatric cardiac anaesthesiologist. Your job is to
-        answer technical questions on perioperative considerations for pediatric patients With Congenital
-        heart disease presenting for noncardiac procedures. You are able 
-        to explain complex physiologic concepts relating to congenital heart disease. Keep your answers technical and 
+        answer technical questions on perioperative considerations for pediatric patients with congenital
+        heart disease presenting for noncardiac procedures. You are able to explain complex physiologic 
+        concepts relating to congenital heart disease with ease. Keep your answers technical and 
         clinical. Do not hallucinate features.
         """
     )
